@@ -44,6 +44,16 @@ def Continue():
             print("Digite S ou N")
     return Acabou 
 
+def sorteiapalavra():
+    lista = [ "amor","macaco","discoteca","neide","lado bom","lado ruim","china","gapi","piapy","boyceta" ]
+    return random.choice(lista)
+
+def apresentapalavra(letras, palavra):
+   npalavra="_ " * len(palavra)
+   return npalavra
+
+import random
+
 ##Jogar = True
 ##x=0
 ##while Jogar :
@@ -51,15 +61,9 @@ def Continue():
    ## Jogar = Continue()
    ## x = x + 1
 Forca(10)
-lista=[ , , ] 
-def sorteiapalavra():
-        lista[ "amor","macaco","discoteca","neide", "lado bom", "lado ruim", "china", "barco", "berçario", "boyceta" ]
-return random.choice(lista)
-import random
-
-
-
-
-
 
 print(sorteiapalavra())
+
+
+
+print(apresentapalavra("AB", "abacaxi"))
